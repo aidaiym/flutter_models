@@ -3,10 +3,10 @@
 
 // import '../../../../src.dart';
 
-// part 'info_state.dart';
+// part 'home_state.dart';
 
-// class InfoCubit extends Cubit<InfoState> {
-//   InfoCubit() : super(const InfoState(FetchStatus.initial));
+// class HomeCubit extends Cubit<InfoState> {
+//   HomeCubit() : super(const InfoState(FetchStatus.initial));
 
 //   Future<void> fetData() async {
 //     emit(state.copyWith(status: FetchStatus.loading));
