@@ -1,27 +1,26 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
+// import 'package:flutter_bloc/flutter_bloc.dart';
 
-import '../../../auth/data/models/user_model.dart';
+// import '../page.dart';
 
-class UserView extends StatelessWidget {
-  const UserView({Key? key, required this.userItems}) : super(key: key);
-  final List<User> userItems;
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Users'),
-      ),
-      body: ListView.builder(
-        itemCount: userItems.length,
-        itemBuilder: (BuildContext context, int index) {
-          final userInfo = userItems[index];
+// class MenuPage extends StatefulWidget {
+//   const MenuPage({super.key});
 
-          return ListTile(
-            leading: Text(userInfo.id.toString()),
-            title: Text(userInfo.name),
-          );
-        },
-      ),
-    );
-  }
-}
+//   @override
+//   State<MenuPage> createState() => _MenuPageState();
+// }
+
+// class _MenuPageState extends State<MenuPage>
+//     with AutomaticKeepAliveClientMixin {
+//   @override
+//   Widget build(BuildContext context) {
+//     super.build(context);
+//     return BlocProvider(
+//       create: (context) => InfoCubit()..fetData(),
+//       child: const MenuView(),
+//     );
+//   }
+
+//   @override
+//   bool get wantKeepAlive => true;
+// }
