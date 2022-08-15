@@ -31,3 +31,22 @@
 //     );
 //   }
 // }
+
+//   const BasketTotalRow({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Row(
+//       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//       children: [
+//         const Text(AppText.basketTotal, style: AppTextStyles.text16w5Black),
+//         BlocSelector<BasketCubit, BasketState, double?>(
+//           selector: (state) => state.basket?.totalPrice,
+//           builder: (context, state) {
+//             return Text('\$ ${state ?? ''}', style: AppTextStyles.text16w7);
+//           },
+//         ),
+//       ],
+//     );
+//   }
+// }
